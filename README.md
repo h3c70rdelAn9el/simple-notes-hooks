@@ -1,3 +1,12 @@
+ <!-- my NOTES -->
+ <!-- TODO -->
+ <!-- Still need to connect to either Firebase or MongoDB -->
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
