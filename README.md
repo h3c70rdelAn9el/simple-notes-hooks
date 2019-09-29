@@ -1,6 +1,8 @@
  <!-- my NOTES -->
+ <!-- Simple Todo app built to understand some hooks usage in React -->
  <!-- TODO -->
  <!-- Still need to connect to either Firebase or MongoDB -->
+
 
 
 
