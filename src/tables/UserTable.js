@@ -1,7 +1,7 @@
 import React from 'react';
 
 const UserTable = props => (
-  <table>
+  <table class="user-table">
     <thead>
       <tr>
         <th>First Name</th>

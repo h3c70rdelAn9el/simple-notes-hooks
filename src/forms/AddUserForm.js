@@ -25,6 +25,16 @@ const handleInputChange = event => {
         setUser(initialFormState)
       }}
     >
+        <div className="form-group-row">
+      <input 
+        className = "form-control"
+        type="text" 
+        name="company" 
+        placeholder = "Company Name"
+        value={user.company}
+        onChange={handleInputChange}
+      />
+    </div>
     <div className="form-group-row">
       <input
         className="form-control" 
@@ -35,7 +45,7 @@ const handleInputChange = event => {
         onChange={handleInputChange}
       />
     </div>
-    <div className="form-group">
+    <div className="form-group-row">
       <input 
         className = "form-control"
         type="text" 
@@ -45,16 +55,9 @@ const handleInputChange = event => {
         onChange={handleInputChange}
       />
     </div>
-    <div className="form-group">
-      <input 
-        className = "form-control"
-        type="text" 
-        name="company" 
-        placeholder = "Company"
-        value={user.company}
-        onChange={handleInputChange}
-      />
-    </div>
+    
+
+
     <div className="form-group notes">
       <textarea 
         className = "form-control"
